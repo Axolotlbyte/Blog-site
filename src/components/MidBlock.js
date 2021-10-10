@@ -6,6 +6,7 @@ const MidBlock = () => {
         <div className='mid-cont'>
             <div className='slanted'></div>
             <div className='slanted-sec'></div>
+            <div className='mid-text'>EXPLORE</div>
         </div>
     )
 }

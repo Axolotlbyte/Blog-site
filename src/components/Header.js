@@ -6,7 +6,7 @@ const Header = () => {
         <div className="header-cont">
             <a href='/' className='link'>
                 <div className="text-cont">
-                    BlogPost
+                    Blog
                 </div>
             </a>
         </div>

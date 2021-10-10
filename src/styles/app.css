@@ -1,8 +1,20 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url(./fonts/BebasNeue.ttf);
+}
+@font-face {
+    font-family: LibreFranklin-Italic;
+    src: url(./fonts/LibreFranklin-Italic.ttf);
+}
+@font-face {
+    font-family: LibreFranklin;
+    src: url(./fonts/LibreFranklin.ttf);
+}
+
 .test-body{
-    /* background-color: rgb(248, 243, 224); */
-    /* background-color: #f8f0ef; */
+
     height: 86vh;
     width: 100%;
     overflow-y: scroll;
-    background-image: url('../photos/double-bubble-dark.png');
+    background-image: url('../photos/double-bubble-light.png');
 }

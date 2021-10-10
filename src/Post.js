@@ -4,7 +4,7 @@ import Header from './components/Header'
 import axios from 'axios'
 import { DateTime } from 'luxon'
 import './styles/post.css'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 
 const Post = (props) => {
 

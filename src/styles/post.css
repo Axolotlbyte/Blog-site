@@ -1,3 +1,16 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url(./fonts/BebasNeue.ttf);
+}
+@font-face {
+    font-family: LibreFranklin-Italic;
+    src: url(./fonts/LibreFranklin-Italic.ttf);
+}
+@font-face {
+    font-family: LibreFranklin;
+    src: url(./fonts/LibreFranklin.ttf);
+}
+
 .post-cont{
     width: 80%;
     min-height: 60vh;
@@ -8,6 +21,7 @@
     border-radius: 5px;
     padding-bottom: 1vh;
     background-color: rgb(221, 221, 221);
+    font-family: LibreFranklin, LibreFranklin-Italic;
 }
 
 @media only screen and (max-width: 600px) {
@@ -22,8 +36,10 @@
 }
 
 .post-text{
-    margin-left: 2vw;
+    width: 90%;
+    margin-left: 5%;
     padding-top: 2vw;
+    font-family: LibreFranklin;
 }
 
 #name-input,#text-input, #submit-btn{

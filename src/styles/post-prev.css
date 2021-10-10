@@ -1,5 +1,5 @@
 .prev-cont{
-    flex: 0 1 30%;
+    flex: 0 1 50%;
     background-color: white;
     overflow: hidden;
     margin-bottom: 5vh;
@@ -9,15 +9,24 @@
     border: 1px solid rgb(194, 194, 194);
     transition: transform 1s;
 }.prev-cont:hover{
-    box-shadow: 0px 5px 5px 5px rgb(0, 0, 0) ;
+
     transform: scale(1.1);
+    z-index: 100;
+}
+
+.view-btn{
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+    font-family: LibreFranklin;
+    font-weight: 600;
 }
 
 @media screen and (min-width: 40em) {
     .prev-cont{
         max-width: calc(50% -  1em);
-        max-height: 35vh;
-        min-height: 25vh;
+        max-height: 40vh;
+        min-height: 38vh;
     }
 }
 
@@ -64,6 +73,11 @@
     height: 70%;
 }
 
-.left{
-    margin-left: 5%;
+.left,.left-font{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.left-font{
+    height: 25%;
 }

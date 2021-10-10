@@ -9,8 +9,8 @@ const PostPrev = (props) => {
     console.log(props.color)
 
     let contString = content.slice()
-    if(contString.length > 20){
-        contString = contString.substring(0, 20)
+    if(contString.length > 100){
+        contString = contString.substring(0, 100)
     }
 
     contString = contString + '...'
@@ -22,7 +22,8 @@ const PostPrev = (props) => {
             <div className="prev-content">
                 <h3 className='left'>{title}</h3>
                 <hr className='post-hr'/>
-                <p className='left'>{contString}</p>
+                <p className='left-font'>{contString}</p>
+                <button className="view-btn">View Post</button>
             </div>
             <Link
                 to={{

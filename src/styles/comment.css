@@ -2,8 +2,10 @@
     width: 96%;
     margin-left: 2%;
     margin-bottom: 2vh;
+    font-family: BebasNeue;
 }
 
 .comment-text{
+    font-family: LibreFranklin;
     padding-left: 2vw;
 }

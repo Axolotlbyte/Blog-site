@@ -1,12 +1,59 @@
 .footer-cont{
-    height: 5vh;
+    background-color: #000000;
     width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin-top: 5vh;
+    height: 5vh;
+    display: block;
+    position: relative;
+    bottom: 0;
+    margin-top: 5%;
 }
 
-.logo-img{
-    height: 3vh;
+.github-img{
+    width: 24px;
+    height: 24px;
 }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.footer-list{
+    margin-top: 10px;
+    align-self: center;
+    float: left;
+    margin-left: 45%;
+}
+
+.footer-text{
+    margin-top: 12px;
+    margin-left: 47%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    height: none;
+    width: none;
+}
+
+@media only screen and (max-width: 600px){
+    .footer-list{
+        margin-left: 40%;
+    }
+    .footer-text{
+        margin-left: 48%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .footer-list{
+        margin-left: 40%;
+    }
+    .footer-text{
+        margin-left: 44%;
+    }
+} 

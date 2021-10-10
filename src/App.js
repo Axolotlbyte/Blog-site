@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header'
 import BlogPost from './components/BlogPosts'
 import axios from 'axios'
-import Footer from './components/footer';
+import Footer from './components/Footer';
 import './styles/app.css'
 import './styles/spinner.css'
 

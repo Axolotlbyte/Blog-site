@@ -2,10 +2,16 @@
     position: relative;
     height: 40vh;
     width: 100%;
-    background-color: rgb(240, 240, 240);
-    border-bottom: 1px solid rgb(202, 202, 202);
+    background-color: rgb(208, 208, 208);
+    border-bottom: 1px solid rgb(133, 133, 133);
     overflow: hidden;
     text-align: right;
+}
+
+.mid-text{
+    position: absolute;
+    z-index: 200;
+    font-size: 5vh;
 }
 
 .slanted{
