@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Blog-site/static/css/main.e914a1d4.chunk.css",
+    "main.css": "/Blog-site/static/css/main.2be4dc40.chunk.css",
     "main.js": "/Blog-site/static/js/main.7274ea6f.chunk.js",
     "main.js.map": "/Blog-site/static/js/main.7274ea6f.chunk.js.map",
     "runtime-main.js": "/Blog-site/static/js/runtime-main.47524d5d.js",
@@ -8,7 +8,7 @@
     "static/js/2.9a49952e.chunk.js": "/Blog-site/static/js/2.9a49952e.chunk.js",
     "static/js/2.9a49952e.chunk.js.map": "/Blog-site/static/js/2.9a49952e.chunk.js.map",
     "index.html": "/Blog-site/index.html",
-    "static/css/main.e914a1d4.chunk.css.map": "/Blog-site/static/css/main.e914a1d4.chunk.css.map",
+    "static/css/main.2be4dc40.chunk.css.map": "/Blog-site/static/css/main.2be4dc40.chunk.css.map",
     "static/js/2.9a49952e.chunk.js.LICENSE.txt": "/Blog-site/static/js/2.9a49952e.chunk.js.LICENSE.txt",
     "static/media/post.css": "/Blog-site/static/media/double-bubble-dark.9b90d46a.png",
     "static/media/app.css": "/Blog-site/static/media/double-bubble-light.06c19cc5.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.47524d5d.js",
     "static/js/2.9a49952e.chunk.js",
-    "static/css/main.e914a1d4.chunk.css",
+    "static/css/main.2be4dc40.chunk.css",
     "static/js/main.7274ea6f.chunk.js"
   ]
 }
